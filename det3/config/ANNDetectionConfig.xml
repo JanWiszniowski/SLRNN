@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ANN type='SLRNN' file='ALL3_1.net' >
+    <inputs step="250000LL">
+        <method time_shift="0"/>
+        <Default_Station>
+            <filter file_name="BP010012_100.IIR" time_shift="0">
+                <sample_by_sample_process process="STA/LTA" sta="0.005" lta="0.001">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.005" covariance_averaging="0.05">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP012016_100.IIR" time_shift="0">
+                <sample_by_sample_process process="STA/LTA" sta="0.006" lta="0.001">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.005" covariance_averaging="0.05">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP016020_100.IIR" time_shift="0">
+                <sample_by_sample_process process="STA/LTA" sta="0.008" lta="0.001">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.005" covariance_averaging="0.05">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP020025_100.IIR" time_shift="5">
+                <sample_by_sample_process process="STA/LTA" sta="0.010" lta="0.001">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.005" covariance_averaging="0.05">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP025032_100.IIR" time_shift="20">
+                <sample_by_sample_process process="STA/LTA" sta="0.012" lta="0.001">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.005" covariance_averaging="0.05">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP032040_100.IIR" time_shift="38">
+                <sample_by_sample_process process="STA/LTA" sta="0.016" lta="0.001">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.005" covariance_averaging="0.05">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP040050_100.IIR" time_shift="49">
+                <sample_by_sample_process process="STA/LTA" sta="0.020" lta="0.001">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.005" covariance_averaging="0.05">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP050063_100.IIR" time_shift="56">
+                <sample_by_sample_process process="STA/LTA" sta="0.025" lta="0.001">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.005" covariance_averaging="0.05">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP063080_100.IIR" time_shift="63">
+                <sample_by_sample_process process="STA/LTA" sta="0.031" lta="0.001">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.005" covariance_averaging="0.05">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP080100_100.IIR" time_shift="70">
+                <sample_by_sample_process process="STA/LTA" sta="0.040" lta="0.001">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.005" covariance_averaging="0.05">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP100120_100.IIR" time_shift="75">
+                <sample_by_sample_process process="STA/LTA" sta="0.050" lta="0.001">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.005" covariance_averaging="0.05">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP120160_100.IIR" time_shift="78">
+                <sample_by_sample_process process="STA/LTA" sta="0.050" lta="0.001">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.005" covariance_averaging="0.05">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP160200_100.IIR" time_shift="81">
+                <sample_by_sample_process process="STA/LTA" sta="0.050" lta="0.001">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.005" covariance_averaging="0.05">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="HP200500_100.IIR" time_shift="97">
+                <sample_by_sample_process process="STA/LTA" sta="0.050" lta="0.001">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.005" covariance_averaging="0.05">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+        </Default_Station>
+        <Station name="200Hz" sta_names="PL.CHRW;PL.GLOD;PL.GWS1;PL.PLAC;PL.SKRZ;PL.STEF;PL.SZCZ;">
+            <filter file_name="BP010012_200.IIR" time_shift="0">
+                <sample_by_sample_process process="STA/LTA" sta="0.0025" lta="0.0005">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.005" covariance_averaging="0.05">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP012016_200.IIR" time_shift="0">
+                <sample_by_sample_process process="STA/LTA" sta="0.003" lta="0.0005">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.005" covariance_averaging="0.05">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP016020_200.IIR" time_shift="0">
+                <sample_by_sample_process process="STA/LTA" sta="0.004" lta="0.0005">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.0025" covariance_averaging="0.025">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP020025_200.IIR" time_shift="10">
+                <sample_by_sample_process process="STA/LTA" sta="0.005" lta="0.0005">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.0025" covariance_averaging="0.025">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP025032_200.IIR" time_shift="40">
+                <sample_by_sample_process process="STA/LTA" sta="0.006" lta="0.0005">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.0025" covariance_averaging="0.025">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP032040_200.IIR" time_shift="76">
+                <sample_by_sample_process process="STA/LTA" sta="0.008" lta="0.0005">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.0025" covariance_averaging="0.025">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP040050_200.IIR" time_shift="98">
+                <sample_by_sample_process process="STA/LTA" sta="0.010" lta="0.0005">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.0025" covariance_averaging="0.025">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP050063_200.IIR" time_shift="112">
+                <sample_by_sample_process process="STA/LTA" sta="0.0125" lta="0.0005">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.0025" covariance_averaging="0.025">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP063080_200.IIR" time_shift="126">
+                <sample_by_sample_process process="STA/LTA" sta="0.0155" lta="0.0005">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.0025" covariance_averaging="0.025">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP080100_200.IIR" time_shift="140">
+                <sample_by_sample_process process="STA/LTA" sta="0.020" lta="0.0005">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.0025" covariance_averaging="0.025">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP100120_200.IIR" time_shift="150">
+                <sample_by_sample_process process="STA/LTA" sta="0.025" lta="0.0005">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.0025" covariance_averaging="0.025">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP120160_200.IIR" time_shift="156">
+                <sample_by_sample_process process="STA/LTA" sta="0.025" lta="0.0005">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.0025" covariance_averaging="0.025">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP160200_200.IIR" time_shift="162">
+                <sample_by_sample_process process="STA/LTA" sta="0.025" lta="0.0005">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.0025" covariance_averaging="0.025">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP200500_200.IIR" time_shift="194">
+                <sample_by_sample_process process="STA/LTA" sta="0.025" lta="0.0005">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.0025" covariance_averaging="0.025">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+        </Station>
+        <Station name="500Hz" sta_names="PL.CHR1;PL.CHR2;PL.CHR4;PL.CHR5;PL.CHR6;PL.CHR7;PL.GLO2;PL.GLO3;PL.GLO4;PL.GLO5;PL.GLO6;PL.GLO7;PL.GW3S;PL.GW4S;PL.PLA1;PL.PLA2;PL.PLA5;PL.PLA7;PL.PLA8;">
+            <filter file_name="BP010012_500.IIR" time_shift="0">
+                <sample_by_sample_process process="STA/LTA" sta="0.001" lta="0.0002">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.001" covariance_averaging="0.01">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP012016_500.IIR" time_shift="0">
+                <sample_by_sample_process process="STA/LTA" sta="0.0012" lta="0.0002">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.001" covariance_averaging="0.01">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP016020_500.IIR" time_shift="0">
+                <sample_by_sample_process process="STA/LTA" sta="0.0016" lta="0.0002">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.001" covariance_averaging="0.01">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP020025_500.IIR" time_shift="5">
+                <sample_by_sample_process process="STA/LTA" sta="0.002" lta="0.0002">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.001" covariance_averaging="0.01">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP025032_500.IIR" time_shift="20">
+                <sample_by_sample_process process="STA/LTA" sta="0.0024" lta="0.0002">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.001" covariance_averaging="0.01">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP032040_500.IIR" time_shift="38">
+                <sample_by_sample_process process="STA/LTA" sta="0.0032" lta="0.0002">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.001" covariance_averaging="0.01">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP040050_500.IIR" time_shift="49">
+                <sample_by_sample_process process="STA/LTA" sta="0.004" lta="0.0002">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.001" covariance_averaging="0.01">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP050063_500.IIR" time_shift="56">
+                <sample_by_sample_process process="STA/LTA" sta="0.005" lta="0.0002">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.001" covariance_averaging="0.01">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP063080_500.IIR" time_shift="63">
+                <sample_by_sample_process process="STA/LTA" sta="0.0062" lta="0.0002">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.001" covariance_averaging="0.01">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP080100_500.IIR" time_shift="70">
+                <sample_by_sample_process process="STA/LTA" sta="0.008" lta="0.0002">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.001" covariance_averaging="0.01">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP100120_500.IIR" time_shift="75">
+                <sample_by_sample_process process="STA/LTA" sta="0.010" lta="0.0002">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.001" covariance_averaging="0.01">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP120160_500.IIR" time_shift="78">
+                <sample_by_sample_process process="STA/LTA" sta="0.010" lta="0.0002">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.001" covariance_averaging="0.01">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP160200_500.IIR" time_shift="81">
+                <sample_by_sample_process process="STA/LTA" sta="0.010" lta="0.0002">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.001" covariance_averaging="0.01">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+            <filter file_name="BP200500_500.IIR" time_shift="97">
+                <sample_by_sample_process process="STA/LTA" sta="0.010" lta="0.0002">
+                    <step_by_step_process process="STA/LTA" />
+                </sample_by_sample_process>
+                <sample_by_sample_process process="covariance" offset_averaging="0.001" covariance_averaging="0.01">
+                    <step_by_step_process process="degree of polarization" />
+                </sample_by_sample_process>
+            </filter>
+        </Station>
+    </inputs>
+</ANN>
