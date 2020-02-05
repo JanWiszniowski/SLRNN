@@ -5,8 +5,11 @@ The compilation of the plugin requires (Visual Studio 2013) and SWIP5 environmen
 Thy Matlab codes run on Matlab 2015a.
 
 The repository includes;
+
 Catalog SVN: The source code of the plugin for data preparation and seismic events detection.
+
 Catalog MATLAB: The source code for training the SLRNN, visualization of results, preparing data for events detection by the plugin.
+
 dat3: The configuration of the plugin for data preparation, weights for detection seismic events by the SLRNN, and seismic events detection and a training data set.
 
 References:
